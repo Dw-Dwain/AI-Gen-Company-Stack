@@ -9,9 +9,9 @@ AI Gen Company Stack is an independent plugin and skill suite. It gives coding a
 - Routes AI product tasks through one entrypoint: `ai-gen-suite`
 - Designs agent apps using Pydantic AI, LangGraph/LangChain, LlamaIndex, smolagents, LiteLLM, and vLLM patterns
 - Builds RAG and knowledge-copilot plans
-- Adds Hallmark-style UI quality gates without copying Hallmark source
-- Adds Ponytail-style minimal-code pressure without copying Ponytail source
-- Adds Caveman-style terse output without copying Caveman source
+- Adds distinctive UI quality gates that reject generic AI-looking layouts (`signature-design-ui`)
+- Adds minimal-code pressure that resists over-engineering (`minimal`)
+- Adds terse output that preserves technical accuracy (`brevity`)
 - Adds defensive cybersecurity routing inspired by open cybersecurity skill libraries
 - Adds prompt hardening without redistributing leaked system prompts
 - Adds safety, fallback, rollback, and learning-loop workflows
@@ -81,9 +81,9 @@ powershell -ExecutionPolicy Bypass -File .\activate.ps1
 | `seo-writing-operator` | Plan, draft, refresh, and QA SEO articles |
 | `llm-infra-gateway` | Plan LiteLLM/vLLM model infrastructure |
 | `company-skill-author` | Create company workflow skills |
-| `ponytail` | Keep code minimal without dropping safety |
-| `caveman` | Compress output while preserving technical accuracy |
-| `hallmark-design-ui` | Build/audit distinctive UI, not generic AI UI |
+| `minimal` | Keep code minimal without dropping safety |
+| `brevity` | Compress output while preserving technical accuracy |
+| `signature-design-ui` | Build/audit distinctive UI, not generic AI UI |
 | `cybersecurity-skill-router` | Route authorized defensive security workflows |
 | `prompt-pattern-auditor` | Harden prompts without copying leaked prompts |
 | `safety-governor` | Add guardrails, permissions, and safety controls |
@@ -130,7 +130,8 @@ See:
 
 Important boundaries:
 
-- This is not an official OpenAI, Anthropic, Claude, Codex, Hallmark, Ponytail, Caveman, or cybersecurity-skills project.
+- This is not an official OpenAI, Anthropic, Claude, Codex, or cybersecurity-skills project.
+- The `brevity`, `minimal`, and `signature-design-ui` skills are original works, not affiliated with any similarly-named third-party tool.
 - It is compatible with Claude Code and Codex.
 - It does not redistribute leaked commercial system prompts.
 - It does not vendor third-party project source files.

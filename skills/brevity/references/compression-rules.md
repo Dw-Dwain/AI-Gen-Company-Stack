@@ -16,8 +16,9 @@
 - exact file paths
 - line numbers
 - commands
-- error messages
-- warnings
+- error messages (secrets redacted, never printed in full)
+- warnings and safety caveats
+- source of a claim and confidence level
 - assumptions
 - verification results
 
@@ -30,7 +31,7 @@ The issue is probably happening because the timeout is too low for slower respon
 You can fix it by increasing the timeout value in the configuration file.
 ```
 
-Caveman:
+Brevity:
 
 ```text
 Cause: timeout too low. Fix: raise config timeout.
@@ -42,7 +43,7 @@ Verbose:
 I searched the repository and found the setting in src/config.ts at line 14.
 ```
 
-Caveman:
+Brevity:
 
 ```text
 src/config.ts:14 - setting lives here.

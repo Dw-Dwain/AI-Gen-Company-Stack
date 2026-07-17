@@ -33,8 +33,27 @@ function Sanitize-Name($Value) {
   return $clean
 }
 
+# minimal: refuse to scaffold onto (and later -Force delete) a drive root or a
+# protected system/profile path. The -Force branch runs Remove-Item -Recurse -Force,
+# so a bad OutputPath is destructive. This is a denylist, not a sandbox.
+function Assert-SafeTarget($Path) {
+  $full = [System.IO.Path]::GetFullPath($Path).TrimEnd('\')
+  if (-not $full) { throw "OutputPath resolved to an empty path." }
+  $root = [System.IO.Path]::GetPathRoot($full).TrimEnd('\')
+  if ($full -ieq $root) { throw "Refusing to scaffold at a drive root: $full" }
+  $protected = @(
+    $env:USERPROFILE, $env:SystemRoot, $env:ProgramFiles,
+    ${env:ProgramFiles(x86)}, $env:ProgramData, $env:SystemDrive
+  ) | Where-Object { $_ }
+  foreach ($p in $protected) {
+    $pf = [System.IO.Path]::GetFullPath($p).TrimEnd('\')
+    if ($full -ieq $pf) { throw "Refusing to scaffold onto a protected path: $full" }
+  }
+  return $full
+}
+
 $ProjectName = Sanitize-Name $Name
-$Target = [System.IO.Path]::GetFullPath($OutputPath)
+$Target = Assert-SafeTarget $OutputPath
 $Parent = Split-Path -Parent $Target
 if (-not $Parent) { throw "OutputPath must have a parent directory." }
 New-Item -ItemType Directory -Force -Path $Parent | Out-Null

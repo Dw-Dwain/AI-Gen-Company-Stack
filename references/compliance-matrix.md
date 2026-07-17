@@ -13,9 +13,9 @@ This plugin is intended to be redistributed as Dwain-owned guidance. It should n
 | LiteLLM | MIT outside enterprise restrictions | Reference OSS gateway patterns |
 | vLLM | Apache-2.0 | Reference serving patterns |
 | Agent Skills examples | Mixed | Reuse pattern only; verify per skill before copying |
-| Ponytail | MIT signal | Original minimal-code skill, no vendored content |
-| Caveman | MIT signal | Original terse-output skill, no vendored content |
-| Hallmark | MIT signal | Original design-quality skill, no vendored content |
+| minimal (minimal-code skill) | Owned original | No vendored content, no third-party affiliation |
+| brevity (terse-output skill) | Owned original | No vendored content, no third-party affiliation |
+| signature-design-ui (UI-quality skill) | Owned original | No vendored content, no third-party affiliation |
 | Anthropic-Cybersecurity-Skills | Apache-2.0 | Original defensive router; optionally install upstream separately |
 | system_prompts_leaks | CC0 signal | Pattern analysis only; do not redistribute leaked prompt contents |
 
