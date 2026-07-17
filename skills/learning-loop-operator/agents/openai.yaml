@@ -1,0 +1,7 @@
+interface:
+  display_name: "Learning Loop Operator"
+  short_description: "Capture lessons and improve safely"
+  brand_color: "#2563EB"
+  default_prompt: "Use $learning-loop-operator to record what this task taught the suite."
+policy:
+  allow_implicit_invocation: true

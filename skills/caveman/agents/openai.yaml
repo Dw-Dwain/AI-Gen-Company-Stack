@@ -1,0 +1,7 @@
+interface:
+  display_name: "Caveman"
+  short_description: "Compress answers without losing accuracy"
+  brand_color: "#2563EB"
+  default_prompt: "Use $caveman to answer this with fewer tokens."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+{
+  "name": "ai-gen-company-stack",
+  "description": "Dwain's AI generation company stack: portable skills and scripts for designing, scaffolding, securing, learning from, rolling back, and operating agentic writing, RAG, UI, workflow, prompt, and LLM infrastructure systems.",
+  "version": "0.3.0",
+  "author": {
+    "name": "Dwain"
+  }
+}

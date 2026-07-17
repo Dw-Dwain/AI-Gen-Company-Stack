@@ -1,0 +1,7 @@
+interface:
+  display_name: "LLM Infra Gateway"
+  short_description: "Plan LiteLLM and vLLM model infrastructure"
+  brand_color: "#2563EB"
+  default_prompt: "Use $llm-infra-gateway to design a hybrid model gateway."
+policy:
+  allow_implicit_invocation: true

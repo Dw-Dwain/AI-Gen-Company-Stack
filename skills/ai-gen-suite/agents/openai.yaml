@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI Gen Suite"
+  short_description: "Route the full AI company toolkit"
+  brand_color: "#2563EB"
+  default_prompt: "Use $ai-gen-suite to route and execute this AI product task."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Safety Governor"
+  short_description: "Add safety and security guardrails"
+  brand_color: "#2563EB"
+  default_prompt: "Use $safety-governor to add production safety gates."
+policy:
+  allow_implicit_invocation: true

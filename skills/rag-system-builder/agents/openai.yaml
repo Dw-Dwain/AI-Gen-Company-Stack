@@ -1,0 +1,7 @@
+interface:
+  display_name: "RAG System Builder"
+  short_description: "Design document-grounded AI systems"
+  brand_color: "#2563EB"
+  default_prompt: "Use $rag-system-builder to design a company knowledge copilot."
+policy:
+  allow_implicit_invocation: true

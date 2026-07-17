@@ -1,0 +1,19 @@
+# local state
+state/
+*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# node/python cache
+node_modules/
+__pycache__/
+*.pyc

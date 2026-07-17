@@ -1,0 +1,7 @@
+interface:
+  display_name: "Company Skill Author"
+  short_description: "Create reusable company workflow skills"
+  brand_color: "#2563EB"
+  default_prompt: "Use $company-skill-author to create a skill for our blog workflow."
+policy:
+  allow_implicit_invocation: true

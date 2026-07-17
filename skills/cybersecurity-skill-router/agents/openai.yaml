@@ -1,0 +1,7 @@
+interface:
+  display_name: "Cybersecurity Skill Router"
+  short_description: "Route defensive security workflows"
+  brand_color: "#2563EB"
+  default_prompt: "Use $cybersecurity-skill-router to threat-model this AI agent."
+policy:
+  allow_implicit_invocation: true

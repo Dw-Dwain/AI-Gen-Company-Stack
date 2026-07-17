@@ -1,0 +1,24 @@
+AI Gen Company Stack is original plugin and skill guidance authored for Dwain.
+
+It references permissive open-source AI projects as integration targets and
+architecture inspiration: Pydantic AI, LangGraph/LangChain, LlamaIndex,
+smolagents, AnythingLLM, Flowise Community, LiteLLM, vLLM, Agent Skills
+patterns, Ponytail-style minimal-code decision ladders, Caveman-style
+terse communication patterns, Hallmark-style anti-generic UI design patterns,
+Anthropic-Cybersecurity-Skills-style defensive security skill routing, and
+system_prompts_leaks-style prompt-system pattern analysis.
+
+No upstream source code from those projects is vendored into this plugin.
+Review each upstream project's current license before copying or redistributing
+their code in a downstream product.
+
+Compliance boundary:
+
+- Hallmark is referenced as MIT-licensed inspiration; this plugin contains an
+  original UI design skill rather than copied Hallmark rules.
+- Anthropic-Cybersecurity-Skills is referenced as Apache-2.0 inspiration; this
+  plugin contains a defensive router skill rather than vendoring the full skill
+  library.
+- system_prompts_leaks is CC0, but leaked prompt contents may include third-party
+  material. This plugin does not redistribute leaked prompts. It only uses the
+  public collection as a signal for defensive prompt architecture patterns.

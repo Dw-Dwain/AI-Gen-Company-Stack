@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI Stack Architect"
+  short_description: "Choose the right AI stack for a product"
+  brand_color: "#2563EB"
+  default_prompt: "Use $ai-stack-architect to design the stack for my AI writing product."
+policy:
+  allow_implicit_invocation: true

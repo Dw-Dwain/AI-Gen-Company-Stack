@@ -1,0 +1,7 @@
+interface:
+  display_name: "Ponytail"
+  short_description: "Keep code minimal without losing safety"
+  brand_color: "#2563EB"
+  default_prompt: "Use $ponytail to make this implementation smaller and safer."
+policy:
+  allow_implicit_invocation: true

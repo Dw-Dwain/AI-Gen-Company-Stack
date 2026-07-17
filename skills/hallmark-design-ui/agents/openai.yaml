@@ -1,0 +1,7 @@
+interface:
+  display_name: "Hallmark Design UI"
+  short_description: "Make UI distinctive, not AI-generic"
+  brand_color: "#2563EB"
+  default_prompt: "Use $hallmark-design-ui to redesign this page so it feels crafted."
+policy:
+  allow_implicit_invocation: true

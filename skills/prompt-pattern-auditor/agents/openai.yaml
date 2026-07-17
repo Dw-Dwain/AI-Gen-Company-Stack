@@ -1,0 +1,7 @@
+interface:
+  display_name: "Prompt Pattern Auditor"
+  short_description: "Harden prompts without copying leaks"
+  brand_color: "#2563EB"
+  default_prompt: "Use $prompt-pattern-auditor to harden this agent system prompt."
+policy:
+  allow_implicit_invocation: true

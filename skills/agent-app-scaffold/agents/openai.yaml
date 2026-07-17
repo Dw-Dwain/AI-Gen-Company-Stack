@@ -1,0 +1,7 @@
+interface:
+  display_name: "Agent App Scaffold"
+  short_description: "Scaffold typed agents and workflows"
+  brand_color: "#2563EB"
+  default_prompt: "Use $agent-app-scaffold to plan a production-ready research agent."
+policy:
+  allow_implicit_invocation: true

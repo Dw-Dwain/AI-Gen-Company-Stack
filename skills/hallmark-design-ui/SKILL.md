@@ -1,0 +1,41 @@
+---
+name: hallmark-design-ui
+description: Design, audit, or redesign UI so it looks crafted rather than generic AI output. Use when building landing pages, apps, dashboards, frontends, design systems, UI audits, redesigns, visual polish, or when the user mentions Hallmark, anti-AI-slop, distinctive UI, typography, layout, visual hierarchy, or premium design.
+---
+
+# Hallmark Design UI
+
+Make UI feel made, not generated. Start from the product domain and audience, then choose structure, typography, color, hierarchy, and restraint deliberately.
+
+## Workflow
+
+1. Identify product type, audience, desired emotion, density, and workflow.
+2. Choose a page structure that is not the default hero -> feature cards -> CTA unless the product genuinely needs it.
+3. Pick a typography role system: display, body, label. Avoid one font doing every job.
+4. Define a restrained palette: neutral base, one anchor hue, one accent used sparingly.
+5. Use layout bias: asymmetry, editorial rhythm, dense work surfaces, or object-led composition when appropriate.
+6. Replace vague claims with actual product, data, state, artifact, screenshot, or interaction.
+7. Run the slop check before final output.
+
+## Slop Check
+
+Reject or revise when the UI uses:
+
+- purple-blue gradient hero as default style
+- nested cards inside cards
+- fake metrics, fake reviews, or invented social proof
+- identical three-column feature cards for every brief
+- oversized SaaS hero for an operational tool
+- generic "AI-powered productivity" copy
+- decorative blobs, orbs, or meaningless glass panels
+- weak hierarchy where everything has the same weight
+- one-note color palette
+- text that cannot fit on mobile
+
+## Output Requirements
+
+For implementation tasks, produce actual UI code using the repo's existing stack. For audits, list concrete fixes by section or component. For redesigns, preserve important product information while changing structure and visual language.
+
+## References
+
+- Read `references/design-gates.md` for build and audit gates.

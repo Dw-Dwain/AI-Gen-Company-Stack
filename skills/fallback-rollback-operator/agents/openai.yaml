@@ -1,0 +1,7 @@
+interface:
+  display_name: "Fallback Rollback Operator"
+  short_description: "Plan fallbacks and recovery paths"
+  brand_color: "#2563EB"
+  default_prompt: "Use $fallback-rollback-operator to add rollback steps."
+policy:
+  allow_implicit_invocation: true
