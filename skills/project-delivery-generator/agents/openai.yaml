@@ -1,0 +1,7 @@
+interface:
+  display_name: "Project Delivery Generator"
+  short_description: "Generate deploy-ready AI project scaffolds"
+  brand_color: "#2563EB"
+  default_prompt: "Use $project-delivery-generator to scaffold a LangGraph AI app with Docker and CI."
+policy:
+  allow_implicit_invocation: true

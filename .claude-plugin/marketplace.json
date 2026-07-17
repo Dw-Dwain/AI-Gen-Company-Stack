@@ -4,13 +4,13 @@
     "name": "Dwain"
   },
   "description": "Dwain's AI generation company plugins and skills.",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "plugins": [
     {
       "name": "ai-gen-company-stack",
       "source": "./",
       "description": "Portable skills for building company-owned AI agents, RAG systems, UI, security workflows, prompt systems, writing workflows, rollback loops, learning loops, and LLM infrastructure.",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "author": {
         "name": "Dwain"
       },
@@ -29,7 +29,12 @@
         "prompt-engineering",
         "safety",
         "rollback",
-        "learning-loop"
+        "learning-loop",
+        "langgraph",
+        "docker",
+        "ci",
+        "observability",
+        "seo"
       ]
     }
   ]

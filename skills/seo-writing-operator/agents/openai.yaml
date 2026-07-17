@@ -1,0 +1,7 @@
+interface:
+  display_name: "SEO Writing Operator"
+  short_description: "Plan, draft, refresh, and QA SEO articles"
+  brand_color: "#2563EB"
+  default_prompt: "Use $seo-writing-operator to create an SEO outline and article brief."
+policy:
+  allow_implicit_invocation: true

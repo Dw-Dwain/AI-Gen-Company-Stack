@@ -76,7 +76,9 @@ powershell -ExecutionPolicy Bypass -File .\activate.ps1
 | `ai-gen-suite` | Main router for the full toolkit |
 | `ai-stack-architect` | Pick the right AI product stack |
 | `agent-app-scaffold` | Plan/scaffold typed agents and workflows |
+| `project-delivery-generator` | Generate LangGraph/Docker/LiteLLM/CI/Sentry/RAG/eval project scaffolds |
 | `rag-system-builder` | Design RAG, document QA, and knowledge copilots |
+| `seo-writing-operator` | Plan, draft, refresh, and QA SEO articles |
 | `llm-infra-gateway` | Plan LiteLLM/vLLM model infrastructure |
 | `company-skill-author` | Create company workflow skills |
 | `ponytail` | Keep code minimal without dropping safety |
@@ -99,6 +101,9 @@ powershell -ExecutionPolicy Bypass -File .\scripts\rollback.ps1
 
 # Record a learning-loop entry
 powershell -ExecutionPolicy Bypass -File .\scripts\learn.ps1 -Task "..." -Outcome "..." -Lesson "..."
+
+# Generate an AI project scaffold
+powershell -ExecutionPolicy Bypass -File .\scripts\new-ai-project.ps1 -Name demo-agent -OutputPath .\examples\demo-agent -LangGraph -Docker -LiteLLM -GitHubActions -Sentry -Rag -Evals -Observability
 ```
 
 ## Positioning

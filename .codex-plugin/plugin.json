@@ -1,7 +1,7 @@
 {
   "name": "ai-gen-company-stack",
-  "version": "0.3.0",
-  "description": "Dwain's AI generation company stack: portable skills and scripts for designing, scaffolding, securing, learning from, rolling back, and operating agentic writing, RAG, UI, workflow, prompt, and LLM infrastructure systems.",
+  "version": "0.4.0",
+  "description": "Dwain's AI generation company stack: portable skills and scripts for designing, scaffolding, securing, learning from, rolling back, and operating agentic writing, RAG, UI, workflow, SEO, prompt, and LLM infrastructure systems.",
   "author": {
     "name": "Dwain"
   },
@@ -20,13 +20,18 @@
     "prompt-engineering",
     "safety",
     "rollback",
-    "learning-loop"
+    "learning-loop",
+    "langgraph",
+    "docker",
+    "ci",
+    "observability",
+    "seo"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "AI Gen Company Stack",
     "shortDescription": "Build company-owned AI agents, RAG, writing, and LLM infrastructure.",
-    "longDescription": "A company-owned skillset for choosing and combining permissive open-source AI tooling: Pydantic AI, LangGraph/LangChain, LlamaIndex, smolagents, AnythingLLM, Flowise Community, LiteLLM, vLLM, and Agent Skills patterns.",
+    "longDescription": "A company-owned skillset for AI product architecture, project scaffolding, LangGraph workflows, RAG, SEO writing, UI design, defensive security, prompt hardening, LiteLLM/vLLM infrastructure, rollback, and learning loops.",
     "developerName": "Dwain",
     "category": "Productivity",
     "capabilities": [
@@ -36,10 +41,8 @@
     ],
     "defaultPrompt": [
       "Use ai-gen-suite to route this AI build task.",
-      "Use ponytail to keep this implementation minimal.",
-      "Use caveman to answer with fewer tokens.",
-    "Use hallmark-design-ui to build a distinctive UI.",
-    "Use safety-governor to add safety checks and rollback."
+      "Use project-delivery-generator to scaffold an AI project.",
+      "Use seo-writing-operator to create an SEO content plan."
     ],
     "brandColor": "#2563EB"
   }
